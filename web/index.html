@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IPv6 設定ツール</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>IPv6 設定ツール</h2>
+        <p>設定を変更するネットワークアダプタを選択してください。</p>
+        
+        <select id="adapter-select">
+            <option value="">-- アダプタを選択 --</option>
+        </select>
+
+        <div class="buttons">
+            <button id="enable-btn" class="enable-btn">✅ 有効化</button>
+            <button id="disable-btn" class="disable-btn">❌ 無効化</button>
+        </div>
+        
+        <div id="status">ここに結果が表示されます。</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
